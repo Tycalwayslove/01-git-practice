@@ -5,6 +5,7 @@
 具体情况看merge操作示意图
 
 这里是一个新的commit
+这里是一个新的commit2
 
 
 
