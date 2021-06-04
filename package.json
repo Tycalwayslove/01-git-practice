@@ -1,0 +1,37 @@
+{
+  "name": "01-git-practice",
+  "version": "1.0.0",
+  "description": "git的一些操作练习",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tycalwayslove/01-git-practice.git"
+  },
+  "keywords": [
+    "git"
+  ],
+  "author": "Tycalwayslove",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tycalwayslove/01-git-practice/issues"
+  },
+  "homepage": "https://github.com/Tycalwayslove/01-git-practice#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
+    "husky": "^6.0.0"
+  }
+}
