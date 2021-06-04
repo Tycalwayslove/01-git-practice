@@ -10,5 +10,3 @@
 # visual studio code
 .history
 *.log
-functions/*
-.temp/**
